@@ -1,0 +1,7 @@
+# Ejercicio 3
+num = int(input("Digite un numero: "))
+suma = 0
+while num <= 10:
+    suma = num + suma
+    num = num + 1
+print("La suma es: " + str(suma))
